@@ -253,6 +253,6 @@ def process_folder(folder_path, api_key):
             print(f"Skipping {filename}, unsupported file type or directory.")
 
 if __name__ == "__main__":
-    api_key = "AIzaSyCSlJDVtpwMxE9GFIcKrPsaolwHjNTbL0U"
+    api_key = "api_key"
     folder_path = "pdfs"
     process_folder(folder_path, api_key)
